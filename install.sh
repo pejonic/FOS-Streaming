@@ -1,6 +1,6 @@
 #!/bin/bash
 # Tested on Ubuntu Ubuntu 14.04 and 15.04
-# feel free to ask me if you have any question sevan@tyfix.nl 
+# feel free to ask me if you have any question pejonic@jobenittv.us
 # git clone https://github.com/zgelici/FOS-Streaming.git
 # Install chmod 755 install.sh && ./install.sh
 
@@ -33,7 +33,6 @@ do
 		#cp /usr/src/nginx-rtmp-module/stat.xsl /usr/local/nginx
 		 #**************NGINX INSTALL END LINE**************#
 		rm -r /usr/local/nginx/conf/nginx.conf
-		rm -r /usr/src/FOS-Streaming
 		cd /usr/src/
 		git clone https://github.com/pejonic/FOS-Streaming.git
 		cd /usr/src/FOS-Streaming/
