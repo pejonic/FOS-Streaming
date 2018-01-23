@@ -6,7 +6,7 @@
 ------------
 - login with a shell client(example putty.exe)
 ```sh
-- wget http://tyfix.nl/fos/install.sh
+- wget https://raw.githubusercontent.com/pejonic/FOS-Streaming/master/install.sh
 - chmod 755 install.sh
 - ./install.sh
 ```
@@ -19,7 +19,7 @@
 #### UPDATE(ONLY FOR EXISTS INSTALLATIONS)
 Login with a shell client
 ```sh
-- wget http://tyfix.nl/fos/update1.sh
+- wget https://raw.githubusercontent.com/pejonic/FOS-Streaming/master/update1.sh
 - chmod 755 ./update1.sh
 - ./update1.sh
 ```
